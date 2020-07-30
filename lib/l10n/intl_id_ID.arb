@@ -239,6 +239,9 @@
   "plant_toxicity": "Toksisitas",
   "plant_herbalism": "Herbalism",
   "plant_trivia": "Trivia",
+  "plant_scientific_label": "Nama ilmiah",
+  "plant_synonyms": "Sinonim",
+  "plant_tap_synonyms": "(ketuk untuk melihat semua)",
 
   "taxonomy_superregnum": "Domain",
   "taxonomy_regnum": "Kingdom",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Mengunggah pengamatan...",
   "observation_upload_success": "Pengamatan telah berhasil diunggah.",
   "observation_upload_fail": "Gagal mengunggah. Silakan periksa koneksi internet Anda dan coba lagi.",
+  "observation_logs": "Unggah",
 
   "subscription": "Berlangganan",
   "subscription_info": "Pengamatan bersama hanya dapat dilihat oleh pengguna yang berlangganan.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Foto yang akan dicari",
   "photo_search_note": "Ini adalah fitur yang hanya berfungsi online. Terkadang ia menemukan apa yang Anda cari, terkadang bahkan tidak dekat. Saya benar-benar mengandalkan pihak ketiga di sini karena mereka melakukan semua kerja keras. Seiring berjalannya waktu itu harus lebih baik dan lebih baik. Gunakan dengan bijak dan jangan menilai keseluruhan aplikasi berdasarkan fitur ini. Untuk tujuan kualitas semua hasil pencarian (bukan foto) akan disimpan.",
   "photo_search_empty": "AI (kecerdasan buatan) tidak mengenali bunga tertentu pada gambar. Coba lagi dengan kondisi sudut, jarak, atau cahaya yang berbeda. Jika Anda sudah melakukannya sepertinya AI tuan tidak akan datang dalam waktu dekat.",
+
+  "notification": "Pemberitahuan",
+  "notification_open": "Buka",
+  "notification_close": "Dekat",
 
   "custom_lists": "Daftar bunga",
   "new_flowers": "Bunga baru",

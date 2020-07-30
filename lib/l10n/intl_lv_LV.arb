@@ -239,6 +239,9 @@
   "plant_trivia": "Nieki",
   "plant_toxicity": "Toksiskums",
   "plant_herbalism": "Herbalism",
+  "plant_scientific_label": "Zinātniskais nosaukums",
+  "plant_synonyms": "Sinonīmi",
+  "plant_tap_synonyms": "(pieskarieties, lai redzētu visus)",
 
   "taxonomy_superregnum": "Impērija",
   "taxonomy_regnum": "Valsts",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Novērojumu augšupielāde...",
   "observation_upload_success": "Novērojumi ir veiksmīgi augšupielādēti.",
   "observation_upload_fail": "Augšupielāde neizdevās. Lūdzu, pārbaudiet savu interneta savienojumu un mēģiniet vēlreiz.",
+  "observation_logs": "Augšupielādes",
 
   "subscription": "Abonēšana",
   "subscription_info": "Dalītie novērojumi ir redzami tikai abonētiem lietotājiem.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Fotoattēls meklēšanai pēc",
   "photo_search_note": "Šī funkcija darbojas tikai tiešsaistē. Dažreiz tas atrod tieši to, ko meklējat, dažreiz pat ne tuvu. Es šeit pilnīgi paļaujos uz trešajām personām, jo viņi visu smago darbu dara visu. Laikam ejot, tam vajadzētu būt arvien labākam. Izmantojiet to saprātīgi un, lūdzu, netiesājiet visu lietojumprogrammu, pamatojoties uz šo funkciju. Kvalitātes nolūkā visi meklēšanas rezultāti (nevis fotoattēli) tiks saglabāti.",
   "photo_search_empty": "MI (mākslīgais intelekts) neatpazina kādu konkrētu ziedu attēlā. Mēģiniet vēlreiz ar dažādiem leņķa, attāluma vai gaismas apstākļiem. Ja jūs jau to darāt, izskatās, ka MI virsnieks drīzumā nenāks.",
+
+  "notification": "Pranešimas",
+  "notification_open": "Atviras",
+  "notification_close": "Aizvērt",
 
   "custom_lists": "Ziedu saraksti",
   "new_flowers": "Jauni ziedi",

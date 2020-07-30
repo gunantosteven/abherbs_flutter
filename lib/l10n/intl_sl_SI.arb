@@ -239,6 +239,9 @@
   "plant_toxicity": "Toksičnost",
   "plant_herbalism": "Zeliščarstvo",
   "plant_trivia": "Trivia",
+  "plant_scientific_label": "Znanstveno ime",
+  "plant_synonyms": "Sinonimi",
+  "plant_tap_synonyms": "(tapnite, da si ogledate vse)",
 
   "taxonomy_superregnum": "Domena",
   "taxonomy_regnum": "Kraljestvo",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Nalaganje opazovanj...",
   "observation_upload_success": "Opažanja so bila uspešno prenesena.",
   "observation_upload_fail": "Nalaganje ni uspelo. Preverite internetno povezavo in poskusite znova.",
+  "observation_logs": "Naloži",
 
   "subscription": "Naročnina",
   "subscription_info": "Opombe v skupni rabi so vidne samo za naročene uporabnike.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Fotografije za iskanje po",
   "photo_search_note": "Ta funkcija deluje samo na spletu. Včasih najde točno tisto, kar iščeš, včasih niti blizu. Tu se popolnoma zanašam na tretje osebe, saj se zelo trudijo. S časom mora biti vedno boljše. Uporabljajte ga pametno in prosim ne sodite o celotni aplikaciji na podlagi te funkcije. V kakovostne namene bodo shranjeni vsi rezultati iskanja (ne fotografije).",
   "photo_search_empty": "UI (umetna inteligenca) na sliki ni prepoznal nobene določene rože. Poskusite znova z različnimi koti, razdaljo ali svetlobnimi pogoji. Če si že naredil, izgleda, da UI nadrejeni ne bo kmalu prišel.",
+
+  "notification": "Obvestilo",
+  "notification_open": "Odpreti",
+  "notification_close": "Zapri",
 
   "custom_lists": "Seznami cvetov",
   "new_flowers": "Novo cvetje",

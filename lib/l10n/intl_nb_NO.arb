@@ -239,6 +239,9 @@
   "plant_trivia": "Trivia",
   "plant_toxicity": "Toksisitet",
   "plant_herbalism": "Plantelegemiddel",
+  "plant_scientific_label": "Vitenskapelig navn",
+  "plant_synonyms": "Synonymer",
+  "plant_tap_synonyms": "(trykk for å se alle)",
 
   "taxonomy_superregnum": "Domene",
   "taxonomy_regnum": "Rike",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Laster opp observasjoner...",
   "observation_upload_success": "Observasjoner har blitt lastet opp.",
   "observation_upload_fail": "Opplasting mislyktes. Vennligst sjekk internettforbindelsen din og prøv igjen.",
+  "observation_logs": "Opplastinger",
 
   "subscription": "Abonnement",
   "subscription_info": "Delte observasjoner er bare synlige for abonnenter.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Bilde å søke etter",
   "photo_search_note": "Dette er funksjonen fungerer bare online. Noen ganger finner den nøyaktig hva du leter etter, andre ganger ikke engang i nærheten. Jeg stoler helt på tredjepart her siden de gjør alt det harde arbeidet. Etter hvert som tiden går skal det bli bedre og bedre. Bruk den med omhu og vær så snill, ikke døm hele applikasjonen basert på denne funksjonen. For kvalitetsformål vil alle søkeresultater (ikke bilder) lagres.",
   "photo_search_empty": "KI (kunstig intelligens) kjente ikke noen bestemt blomst på bildet. Prøv igjen med forskjellige vinkel-, avstands- eller lysforhold. Hvis du allerede gjorde det, ser det ut som at KI overlord ikke kommer når som helst snart.",
+
+  "notification": "Melding",
+  "notification_open": "Åpen",
+  "notification_close": "Lukk",
 
   "custom_lists": "Lister over blomster",
   "new_flowers": "Nye blomster",

@@ -239,6 +239,9 @@
   "plant_trivia": "冷知識",
   "plant_toxicity": "毒性",
   "plant_herbalism": "草藥醫學",
+  "plant_scientific_label": "科學名稱",
+  "plant_synonyms": "同義字",
+  "plant_tap_synonyms": "(點擊查看全部)",
 
   "taxonomy_superregnum": "域",
   "taxonomy_regnum": "界",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "上載觀察...",
   "observation_upload_success": "意見已成功上傳。",
   "observation_upload_fail": "上傳失敗。 請檢查您的互聯網連接，然後重試。",
+  "observation_logs": "上載",
 
   "subscription": "訂閱",
   "subscription_info": "共享的觀察僅對訂閱的用戶可見。",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "要搜索的照片",
   "photo_search_note": "此功能僅可在線使用。 有時它會找到您要尋找的東西，有時甚至找不到。 我在這裡完全依靠第三方，因為他們正在做所有的辛苦工作。 隨著時間的流逝，它應該越來越好。 明智地使用它，請不要基於此功能來判斷整個應用程序。 出於質量目的，將保存所有搜索結果（而非照片）。",
   "photo_search_empty": "AI（人工智能）無法識別圖片上的任何特定花朵。 在不同的角度，距離或光照條件下重試。 如果您已經做過，那麼看來AI霸主不會很快到來。",
+
+  "notification": "通知",
+  "notification_open": "打開",
+  "notification_close": "關",
 
   "custom_lists": "花清單",
   "new_flowers": "新花",

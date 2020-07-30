@@ -239,6 +239,9 @@
   "plant_toxicity": "Toxicité",
   "plant_herbalism": "Herboristerie",
   "plant_trivia": "Bagatelles",
+  "plant_scientific_label": "Nom scientifique",
+  "plant_synonyms": "Synonymes",
+  "plant_tap_synonyms": "(touchez pour tout voir)",
 
   "taxonomy_superregnum": "Domaine",
   "taxonomy_regnum": "Règne",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Mise en ligne des observations...",
   "observation_upload_success": "Les observations ont été téléchargées avec succès.",
   "observation_upload_fail": "Le téléchargement a échoué. S'il vous plaît, vérifiez votre connexion à internet et réessayez.",
+  "observation_logs": "Téléchargements",
 
   "subscription": "Abonnement",
   "subscription_info": "Les observations partagées sont visibles uniquement pour les utilisateurs abonnés.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Photo à rechercher par",
   "photo_search_note": "Cette fonctionnalité ne fonctionne qu'en ligne. Parfois, il trouve exactement ce que vous cherchez, parfois même pas à proximité. Je compte totalement sur des tiers ici car ils font tout le travail acharné. Au fil du temps, cela devrait être de mieux en mieux. Utilisez-le à bon escient et ne jugez pas toute l'application sur la base de cette fonctionnalité. Pour des raisons de qualité, tous les résultats de recherche (pas les photos) seront enregistrés.",
   "photo_search_empty": "IA (Intelligence artificielle) n'a reconnu aucune fleur particulière sur la photo. Réessayez avec différents angles, distances ou conditions d'éclairage. Si vous l'avez déjà fait, il semble que le suzerain d'IA ne viendra pas de sitôt.",
+
+  "notification": "Notification",
+  "notification_open": "Ouvert",
+  "notification_close": "Sortie",
 
   "custom_lists": "Listes de fleurs",
   "new_flowers": "De nouvelles fleurs",

@@ -239,6 +239,9 @@
   "plant_toxicity": "Tossicità",
   "plant_herbalism": "Erbalismo",
   "plant_trivia": "Curiosità",
+  "plant_scientific_label": "Nome scientifico",
+  "plant_synonyms": "Sinonimi",
+  "plant_tap_synonyms": "(tocca per vedere tutto)",
 
   "taxonomy_superregnum": "Dominio",
   "taxonomy_regnum": "Regno",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Caricamento osservazioni...",
   "observation_upload_success": "Le osservazioni sono state caricate con successo.",
   "observation_upload_fail": "Caricamento fallito. Per favore controlla la tua connessione Internet e prova di nuovo.",
+  "observation_logs": "Upload",
 
   "subscription": "Iscrizione",
   "subscription_info": "Le osservazioni condivise sono visibili solo agli utenti iscritti.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Foto da cercare",
   "photo_search_note": "Questa è una funzionalità che funziona solo online. A volte trova esattamente quello che stai cercando, a volte nemmeno si avvicina. Al momento, l'applicazione dipende da terzo, che gestisce la maggior parte dell'attività. Col passare del tempo, la funzionalità migliorare, ma ricorda che non è nata per il riconoscimento dei fiori. Usala saggiamente e per favore non basare il giudizio dell'applicazione su questo funzione. Per motivi di qualità, tutti i risultati della ricerca (foto escluse) verranno salvati.",
   "photo_search_empty": "IA (intelligenza artificiale) non ha riconosciuto nessun fiore null'immagine. Riprova da diverse angolazioni, distanze o condizioni di luce. Se l'hai già fatto, forse Mr. AI non è ancora pronto.",
+
+  "notification": "Notifica",
+  "notification_open": "Aperto",
+  "notification_close": "Chiudi",
 
   "custom_lists": "Elenchi di fiori",
   "new_flowers": "Nuovi fiori",

@@ -239,6 +239,9 @@
   "plant_toxicity": "Myrkyllisyys",
   "plant_herbalism": "Herbalismi",
   "plant_trivia": "Trivia",
+  "plant_scientific_label": "Tieteellinen nimi",
+  "plant_synonyms": "Synonyymit",
+  "plant_tap_synonyms": "(napauta nähdäksesi kaikki)",
 
   "taxonomy_superregnum": "Domeeni",
   "taxonomy_regnum": "Kunta",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Havaintojen lataaminen...",
   "observation_upload_success": "Huomautukset on lähetetty onnistuneesti.",
   "observation_upload_fail": "Lähetys epäonnistui. Tarkista Internet-yhteys ja yritä uudelleen.",
+  "observation_logs": "Lisäykset",
 
   "subscription": "Tilaus",
   "subscription_info": "Jaetut havainnot näkyvät vain tilatuille käyttäjille.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Kuva, jonka haluat etsiä",
   "photo_search_note": "Tämä ominaisuus toimii vain verkossa. Joskus se löytää juuri etsimäsi, joskus ei edes lähellä. Luotan täysin kolmansiin osapuoliin, koska he tekevät kovaa työtä. Ajan myötä sen pitäisi olla parempi. Käytä sitä viisaasti ja älä arvioi koko sovellusta tämän ominaisuuden perusteella. Laadun kannalta kaikki hakutulokset (ei valokuvia) tallennetaan.",
   "photo_search_empty": "AI (keinotekoinen äly) ei tunnistanut mitään tiettyä kukkaa kuvassa. Yritä uudelleen eri kulma-, etäisyys- tai valo-olosuhteissa. Jos olet jo tehnyt, näyttää siltä, että AI: n ylimies ei tule pian.",
+
+  "notification": "Ilmoitus",
+  "notification_open": "Avata",
+  "notification_close": "Kiinni",
 
   "custom_lists": "Luettelot kukista",
   "new_flowers": "Uudet kukat",

@@ -239,6 +239,9 @@
   "plant_toxicity": "Toxicita",
   "plant_herbalism": "Bylinářství",
   "plant_trivia": "Zajímavosti",
+  "plant_scientific_label": "Odborný název",
+  "plant_synonyms": "Synonyma",
+  "plant_tap_synonyms": "(klepnutím zobrazíte všechny)",
 
   "taxonomy_superregnum": "doména",
   "taxonomy_regnum": "říše",
@@ -285,6 +288,7 @@
   "observation_upload_progress": "Záloha pozorování...",
   "observation_upload_success": "Pozorování byly úspěšně zálohovány.",
   "observation_upload_fail": "Zálohování selhalo. Zkontrolujte, prosím, vaše připojení na internet a zkuste znovu.",
+  "observation_logs": "Zálohy",
 
   "subscription": "Předplatné",
   "subscription_info": "Sdílené pozorování jsou přístupné pouze uživatelům s předplatným.",
@@ -314,6 +318,10 @@
   "photo_to_search_by": "Fotka, podle níž se vyhledává",
   "photo_search_note": "Toto je funkce, která funguje pouze online. Někdy najde přesně to, co hledáte, někdy ani zdaleka. Úplně se v tom spoléhám na třetí stranu, protože jde o jejich software. Časem by to mělo být lepší a lepší. Používejte ji uvážlivě a prosím nehodnoťte celou aplikaci na základě této funkce. Za účelem zvyšování kvality budou všechny výsledky vyhledávání (ne fotografie) uložené.",
   "photo_search_empty": "UI (umělá inteligence) na obrázku nerozeznala žádnou konkrétní květinu. Zkuste znovu s jiným úhlem, vzdáleností nebo světelnými podmínkami. Pokud jste to již udělali, vypadá to tak, že nový UI vládce nepřijde tak brzy.",
+
+  "notification": "Notifikace",
+  "notification_open": "Otevřít",
+  "notification_close": "Zavřít",
 
   "custom_lists": "Seznamy květin",
   "new_flowers": "Nové květy",

@@ -239,6 +239,9 @@
   "plant_toxicity": "Toksičnost",
   "plant_herbalism": "Travarstvo",
   "plant_trivia": "Trivijalnost",
+  "plant_scientific_label": "Znanstveno ime",
+  "plant_synonyms": "Sinonimi",
+  "plant_tap_synonyms": "(dodirnite da biste vidjeli sve)",
 
   "taxonomy_superregnum": "Domena",
   "taxonomy_regnum": "Carstvo",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Učitavanje zapažanja...",
   "observation_upload_success": "Zapažanja su uspješno prenesene.",
   "observation_upload_fail": "Prijenos nije uspio. Provjerite internetsku vezu i pokušajte ponovno.",
+  "observation_logs": "Slike",
 
   "subscription": "Pretplata",
   "subscription_info": "Dijeljena opažanja vidljiva su samo korisnicima s pretplatom.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Fotografija za pretraživanje po",
   "photo_search_note": "Ova značajka djeluje samo na mreži. Ponekad se nađe upravo ono što tražite, ponekad čak ni blizu. Ovdje se potpuno oslanjam na treću stranu jer oni rade sve naporan posao. Kako vrijeme prolazi trebalo bi biti sve bolje i bolje. Koristite ga mudro i nemojte suditi o cijeloj aplikaciji na temelju ove značajke. Svi će rezultati pretraživanja (a ne fotografije) biti spremljeni u svrhu kvalitete.",
   "photo_search_empty": "UI (umjetna inteligencija) nije prepoznao nijedan određeni cvijet na slici. Pokušajte ponovno s različitim kutovima, udaljenostima ili uvjetima osvjetljenja. Ako ste to već učinili, izgleda da UI vladar neće uskoro doći.",
+
+  "notification": "Obavijest",
+  "notification_open": "Otvoriti",
+  "notification_close": "Zatvoriti",
 
   "custom_lists": "Popisi cvijeća",
   "new_flowers": "Novo cvijeće",

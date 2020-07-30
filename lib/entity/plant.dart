@@ -2,10 +2,10 @@ class Plant{
   final String key;
   int id;
   int gbifId;
-  int kewId;
   String usdaId;
+  String ipniId;
   String name;
-  String wikiName;
+  String author;
   Map<dynamic, dynamic> apgIV;
   int floweringFrom;
   int floweringTo;
@@ -21,6 +21,7 @@ class Plant{
   Plant.fromJson(this.key, Map data) {
     id = data['id'];
     name = data['name'];
+    author = data['author'];
     apgIV = data['APGIV'];
     floweringFrom = data['floweringFrom'];
     floweringTo = data['floweringTo'] ?? 0;

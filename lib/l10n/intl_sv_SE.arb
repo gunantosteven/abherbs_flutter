@@ -239,6 +239,9 @@
   "plant_toxicity": "Giftighet",
   "plant_herbalism": "Medicinalväxt",
   "plant_trivia": "Trivia",
+  "plant_scientific_label": "Vetenskapligt namn",
+  "plant_synonyms": "Synonymer",
+  "plant_tap_synonyms": "(tryck för att se alla)",
 
   "taxonomy_superregnum": "Domän",
   "taxonomy_regnum": "Rike",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Överför observationer...",
   "observation_upload_success": "Observationer har laddats upp.",
   "observation_upload_fail": "Uppladdningen misslyckades. Kontrollera din internetanslutning och försök igen.",
+  "observation_logs": "Uppladdningar",
 
   "subscription": "Prenumeration",
   "subscription_info": "Delade observationer är bara synliga för abonnemangade användare.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Foto att söka efter",
   "photo_search_note": "Denna funktion fungerar endast online. Ibland hittar den exakt vad du letar efter, ibland inte ens nära. Jag litar helt på tredje part här eftersom de gör allt hårt arbete. Med tiden bör det bli bättre och bättre. Använd det klokt och bedöm inte hela applikationen baserat på den här funktionen. För kvalitetssyften sparas alla sökresultat (inte foton).",
   "photo_search_empty": "AI (artificiell intelligens) kände inte igen någon speciell blomma på bilden. Försök igen med olika vinkel-, distans- eller ljusförhållanden. Om du redan gjorde det ser det ut som AI overlord kommer inte när som helst snart.",
+
+  "notification": "Underrättelse",
+  "notification_open": "Öppna",
+  "notification_close": "Stänga",
 
   "custom_lists": "Listor över blommor",
   "new_flowers": "Nya blommor",

@@ -239,6 +239,9 @@
   "plant_toxicity": "Toxiciteit",
   "plant_herbalism": "Geneeskundige toepassingen",
   "plant_trivia": "Weetjes",
+  "plant_scientific_label": "Wetenschappelijke naam",
+  "plant_synonyms": "Synoniemen",
+  "plant_tap_synonyms": "(tik om alles te zien)",
 
   "taxonomy_superregnum": "Domein",
   "taxonomy_regnum": "Rijk",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Observaties uploaden...",
   "observation_upload_success": "Observaties zijn succesvol geüpload.",
   "observation_upload_fail": "Upload mislukt. Controleer uw internetverbinding en probeer het opnieuw.",
+  "observation_logs": "Uploads",
 
   "subscription": "Abonnement",
   "subscription_info": "Gedeelde waarnemingen zijn alleen zichtbaar voor geabonneerde gebruikers.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Foto om op te zoeken",
   "photo_search_note": "Deze functie werkt alleen online. Soms vindt het precies wat u zoekt, soms zelfs niet in de buurt. Ik vertrouw hier volledig op derden, omdat ze al het harde werk doen. Naarmate de tijd verstrijkt, moet het steeds beter worden. Gebruik het verstandig en beoordeel alsjeblieft niet de hele applicatie op basis van deze functie. Voor kwaliteitsdoeleinden worden alle zoekresultaten (geen foto's) opgeslagen.",
   "photo_search_empty": "KI (kunstmatige intelligentie) herkende geen enkele specifieke bloem op de foto. Probeer het opnieuw met verschillende hoeken, afstanden of lichtomstandigheden. Als je het al hebt gedaan, ziet het er naar uit dat KI-oploper niet snel zal komen.",
+
+  "notification": "Kennisgeving",
+  "notification_open": "Open",
+  "notification_close": "Dichtbij",
 
   "custom_lists": "Lijsten van bloemen",
   "new_flowers": "Nieuwe bloemen",

@@ -1,16 +1,26 @@
 import 'dart:async';
+import 'dart:ui' as ui;
 
+import 'package:abherbs_flutter/detail/plant_detail_synonyms.dart';
 import 'package:abherbs_flutter/entity/plant.dart';
 import 'package:abherbs_flutter/entity/plant_translation.dart';
+import 'package:abherbs_flutter/generated/l10n.dart';
 import 'package:abherbs_flutter/utils/utils.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
 import '../ads.dart';
 
-final translationsTaxonomyReference = FirebaseDatabase.instance.reference().child(firebaseTranslationsTaxonomy);
-
 Widget getTaxonomy(BuildContext context, Locale myLocale, Plant plant, Future<PlantTranslation> _plantTranslationF, double _fontSize) {
+  Future<List<String>> _firstSynonymF = synonymsReference.child(plant.name).child(firebaseAttributeIPNI).once().then((DataSnapshot snapshot) {
+    List<String> result = [];
+    if (snapshot.value != null) {
+      result.add([snapshot.value.first['name'], snapshot.value.first['suffix']].join(' '));
+      result.add(snapshot.value.first['author']);
+    }
+    return result;
+  });
+
   List<Widget> cards = [];
 
   cards.add(Card(
@@ -26,9 +36,95 @@ Widget getTaxonomy(BuildContext context, Locale myLocale, Plant plant, Future<Pl
   )));
 
   cards.add(Card(
-    child: Container(
-      padding: EdgeInsets.all(10.0),
-      child: _getSynonyms(plant),
+    child: Column(
+      children: [
+        Container(
+          padding: EdgeInsets.only(top: 10.0),
+          child: Text(
+            S.of(context).plant_scientific_label,
+          ),
+        ),
+        Container(
+          padding: EdgeInsets.only(top: 10.0, bottom: 10.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                plant.name,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 22.0,
+                ),
+                textAlign: TextAlign.center,
+              ),
+              Text('  '),
+              Text(
+                plant.author ?? '',
+                style: TextStyle(
+                  fontSize: 18.0,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ],
+          ),
+        ),
+        FutureBuilder<List<String>>(
+          future: _firstSynonymF,
+          builder: (BuildContext context, AsyncSnapshot<List<String>> snapshot) {
+            if (snapshot.connectionState == ConnectionState.done && snapshot.data.length > 0) {
+              return GestureDetector(
+                child: Column(children: [
+                  Container(
+                    child: Text(
+                      S.of(context).plant_synonyms,
+                    ),
+                  ),
+                  ListTile(
+                    title: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          snapshot.data[0],
+                          style: TextStyle(
+                            fontSize: 18.0,
+                          ),
+                        ),
+                        Text(
+                          snapshot.data[1],
+                          style: TextStyle(
+                            fontSize: 18.0,
+                          ),
+                        ),
+                      ],
+                    ),
+                    leading: Icon(Icons.arrow_right),
+                    trailing: Icon(Icons.insert_link),
+                  ),
+                  Container(
+                    padding: EdgeInsets.only(bottom: 10.0),
+                    child: Text(
+                      S.of(context).plant_tap_synonyms,
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 16.0,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
+                  ),
+                ]),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => PlantSynonyms(myLocale, plant), settings: RouteSettings(name: 'PlantSynonyms')),
+                  );
+                },
+              );
+            } else {
+              return Container();
+            }
+          },
+        ),
+      ],
     ),
   ));
 
@@ -75,33 +171,6 @@ Widget _getNames(Plant plant, PlantTranslation plantTranslation) {
   );
 }
 
-Widget _getSynonyms(Plant plant) {
-  var latinNames = <Text>[];
-  latinNames.add(Text(
-    plant.name,
-    style: TextStyle(
-      fontWeight: FontWeight.bold,
-      fontSize: 22.0,
-    ),
-    textAlign: TextAlign.center,
-  ));
-  if (plant.synonyms != null) {
-    latinNames.add(Text(
-      plant.synonyms.join(', '),
-      style: TextStyle(
-        fontStyle: FontStyle.italic,
-        fontSize: 14.0,
-      ),
-      textAlign: TextAlign.center,
-    ));
-  }
-
-  return Column(
-    mainAxisAlignment: MainAxisAlignment.center,
-    children: latinNames,
-  );
-}
-
 Widget _getTaxonomy(BuildContext context, Locale myLocale, Plant plant, double fontSize) {
   var taxonTiles = <Widget>[];
 
@@ -129,8 +198,7 @@ Widget _getTaxonomy(BuildContext context, Locale myLocale, Plant plant, double f
 }
 
 Widget _getTaxonInLanguage(Locale myLocale, String taxon, double fontSize) {
-  Future<String> translationF =
-      translationsTaxonomyReference.child(getLanguageCode(myLocale.languageCode)).child(taxon).once().then((DataSnapshot snapshot) {
+  Future<String> translationF = translationsTaxonomyReference.child(getLanguageCode(myLocale.languageCode)).child(taxon).once().then((DataSnapshot snapshot) {
     if (snapshot.value != null && snapshot.value.length > 0) {
       return snapshot.value.join(', ');
     } else {
@@ -149,7 +217,10 @@ Widget _getTaxonInLanguage(Locale myLocale, String taxon, double fontSize) {
               names.add(Text(snapshot.data, style: TextStyle(fontWeight: FontWeight.bold, fontSize: fontSize)));
             }
           }
-          names.add(Text(taxon, style: TextStyle(fontSize: fontSize),));
+          names.add(Text(
+            taxon,
+            style: TextStyle(fontSize: fontSize),
+          ));
 
           return Column(
             mainAxisAlignment: MainAxisAlignment.center,

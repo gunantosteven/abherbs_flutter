@@ -120,7 +120,7 @@
 
   "yes": "Ja",
   "no": "Ingen",
-  "close": "Tæt",
+  "close": "Lukke",
   "pause": "Pause",
 
   "filter_color": "farve",
@@ -237,6 +237,9 @@
   "plant_trivia": "Trivia",
   "plant_toxicity": "Toksicitet",
   "plant_herbalism": "Naturmedicin",
+  "plant_scientific_label": "Videnskabeligt navn",
+  "plant_synonyms": "Synonymer",
+  "plant_tap_synonyms": "(tryk for at se alle)",
 
   "taxonomy_superregnum": "Domæne",
   "taxonomy_regnum": "Rige",
@@ -284,6 +287,7 @@
   "observation_upload_progress": "Overførsel af observationer...",
   "observation_upload_success": "Observationer er blevet uploadet korrekt.",
   "observation_upload_fail": "Upload fejlede. Kontroller din internetforbindelse og prøv igen.",
+  "observation_logs": "Uploads",
 
   "subscription": "Abonnement",
   "subscription_info": "Delte observationer er kun synlige for abonnenter.",
@@ -313,6 +317,10 @@
   "photo_to_search_by": "Foto til søgning efter",
   "photo_search_note": "Dette er funktion, der kun fungerer online. Nogle gange finder den nøjagtigt det, du leder efter, nogle gange ikke engang i nærheden. Jeg stoler helt på tredjepart her, da de gør alt det hårde arbejde. Efterhånden som det går skal det være bedre og bedre. Brug det med omhu og bedøm venligst ikke hele applikationen baseret på denne funktion. Af kvalitetsmæssige grunde gemmes alle søgeresultater (ikke fotos).",
   "photo_search_empty": "KI (kunstig intelligens) genkendte ikke nogen bestemt blomst på billedet. Prøv igen med forskellige vinkel-, afstands- eller lysforhold. Hvis du allerede gjorde det ser ud som KI overlord ikke kommer når som helst snart.",
+
+  "notification": "Notifikation",
+  "notification_open": "Åbn",
+  "notification_close": "Lukke",
 
   "custom_lists": "Lister med blomster",
   "new_flowers": "Nye blomster",

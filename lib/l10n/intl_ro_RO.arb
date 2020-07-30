@@ -239,6 +239,9 @@
   "plant_toxicity": "Toxicitate",
   "plant_herbalism": "Herbalism",
   "plant_trivia": "Trivia",
+  "plant_scientific_label": "Nume stiintific",
+  "plant_synonyms": "Sinonime",
+  "plant_tap_synonyms": "(atingeți pentru a vedea toate)",
 
   "taxonomy_superregnum": "Domeniu",
   "taxonomy_regnum": "Regn",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Încărcarea observațiilor...",
   "observation_upload_success": "Observațiile au fost încărcate cu succes.",
   "observation_upload_fail": "Încărcare eșuată. Verificați conexiunea la internet și încercați din nou.",
+  "observation_logs": "Încărcările",
 
   "subscription": "Abonament",
   "subscription_info": "Observațiile comune sunt vizibile numai pentru utilizatorii abonați.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Foto pentru a căuta după",
   "photo_search_note": "Aceasta este caracteristica funcționează doar online. Uneori găsește exact ceea ce cauți, alteori nici măcar nu e aproape. Mă bazez total pe terți aici, deoarece fac toată munca grea. Pe măsură ce trece timpul, ar trebui să fie din ce în ce mai bine. Utilizați-l cu înțelepciune și vă rugăm să nu judecați întreaga aplicație pe baza acestei funcții. În scopuri de calitate, toate rezultatele căutării (nu fotografiile) vor fi salvate.",
   "photo_search_empty": "IA (inteligenta artificiala) nu a recunoscut nici o floare particulara in imagine. Încercați din nou cu diferite unghiuri, distanțe sau condiții de lumină. Dacă ați făcut-o deja, arata că IA overlord nu va veni în curând.",
+
+  "notification": "Notificare",
+  "notification_open": "Deschis",
+  "notification_close": "Închide",
 
   "custom_lists": "Liste de flori",
   "new_flowers": "Flori noi",

@@ -237,6 +237,9 @@
   "plant_toxicity": "Toxicita",
   "plant_herbalism": "Bylinkárstvo",
   "plant_trivia": "Zaujímavosti",
+  "plant_scientific_label": "Vedecký názov",
+  "plant_synonyms": "Synonymá",
+  "plant_tap_synonyms": "(klepnutím zobrazíte všetky)",
 
   "taxonomy_superregnum": "doména",
   "taxonomy_regnum": "ríša",
@@ -283,6 +286,7 @@
   "observation_upload_progress": "Zálohujem pozorovania...",
   "observation_upload_success": "Pozorovania boli úspešne zálohované.",
   "observation_upload_fail": "Zálohovanie zlyhalo. Skontrolujte, prosím, vaše pripojenie na internet a skúste znova.",
+  "observation_logs": "Zálohy",
 
   "subscription": "Predplatné",
   "subscription_info": "Zdieľané pozorovania sú prístupné iba používateľom s predplatným.",
@@ -312,6 +316,10 @@
   "photo_to_search_by": "Fotka, podľa ktorej sa vyhľadáva",
   "photo_search_note": "Toto je funkcia, ktorá funguje iba online. Niekedy nájde presne to, čo hľadáte, niekedy sa ani nepriblíži. Úplne sa v tom spolieham na tretiu stranu, keďže ide o ich softvér. Časom by to malo byť lepšie a lepšie. Používajte ju uvážlivo a, prosím, nehodnoťte celú aplikáciu na základe tejto funkcie. Za účelom zvyšovania kvality budú všetky výsledky vyhľadávania (nie fotografie) uložené.",
   "photo_search_empty": "UI (umelá inteligencia) na obrázku nerozoznala žiadnu konkrétnu kvetinu. Skúste znova s iným uhlom, vzdialenosťou alebo svetelnými podmienkami. Ak ste to už urobili, vyzerá to tak, že nový UI vládca nepríde tak skoro.",
+
+  "notification": "Notifikácia",
+  "notification_open": "Otvoriť",
+  "notification_close": "Zatvoriť",
 
   "custom_lists": "Zoznamy kvetov",
   "new_flowers": "Nové kvety",

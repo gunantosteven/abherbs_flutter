@@ -239,6 +239,9 @@
   "plant_toxicity": "Mürgisus",
   "plant_herbalism": "Raviteaduse",
   "plant_trivia": "Tühiasi",
+  "plant_scientific_label": "Teaduslik nimetus",
+  "plant_synonyms": "Sünonüümid",
+  "plant_tap_synonyms": "(kõigi kuvamiseks puudutage)",
 
   "taxonomy_superregnum": "Domeen",
   "taxonomy_regnum": "Riik",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Vaatluste üleslaadimine...",
   "observation_upload_success": "Vaatlused on edukalt üles laetud.",
   "observation_upload_fail": "Üleslaadimine ebaõnnestus. Palun kontrollige oma Interneti-ühendust ja proovige uuesti.",
+  "observation_logs": "Üleslaadimine",
 
   "subscription": "Tellimus",
   "subscription_info": "Jagatud vaatlused on nähtavad ainult tellitud kasutajatele.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Foto otsimiseks",
   "photo_search_note": "See funktsioon töötab ainult veebis. Mõnikord leiab see just seda, mida otsite, mõnikord isegi mitte lähedalt. Ma toetun siin täielikult kolmandatele osapooltele, kuna nad teevad kogu raske töö. Mida aeg edasi, seda parem peaks olema. Kasutage seda arukalt ja ärge otsustage selle funktsiooni põhjal kogu rakendust. Kvaliteedi tagamiseks salvestatakse kõik otsingutulemid (mitte fotod).",
   "photo_search_empty": "AI (tehisintellekt) ei tuvastanud pildil ühtegi konkreetset lille. Proovige uuesti erinevate nurkade, kauguste või valgustingimustega. Kui sa juba tegid, siis näib, et AI ülempreester ei jõua peagi.",
+
+  "notification": "Teatamine",
+  "notification_open": "Avatud",
+  "notification_close": "Sulge",
 
   "custom_lists": "Lillede nimekirjad",
   "new_flowers": "Uued lilled",

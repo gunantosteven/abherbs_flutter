@@ -239,6 +239,9 @@
   "plant_toxicity": "Méregtartalom",
   "plant_herbalism": "Gyógynövények",
   "plant_trivia": "Apróságok",
+  "plant_scientific_label": "Tudományos név",
+  "plant_synonyms": "Szinonimák",
+  "plant_tap_synonyms": "(érintse meg az összes megjelenítéséhez)",
 
   "taxonomy_superregnum": "Domén",
   "taxonomy_regnum": "Ország",
@@ -286,6 +289,7 @@
   "observation_upload_progress": "Megfigyelések feltöltése...",
   "observation_upload_success": "A megfigyeléseket sikerült feltölteni.",
   "observation_upload_fail": "Feltöltés sikertelen. Kérjük ellenőrizze az internetkapcsolatot és próbálja újra.",
+  "observation_logs": "Feltöltések",
 
   "subscription": "Előfizetés",
   "subscription_info": "A megosztott megfigyelések csak az előfizetett felhasználók számára láthatóak.",
@@ -315,6 +319,10 @@
   "photo_to_search_by": "Fénykép a kereséshez",
   "photo_search_note": "Ez a szolgáltatás csak online működik. Néha pontosan megtalálja azt, amit keres, néha még nem is. Teljesen támaszkodom a harmadik felekre, mivel ők minden kemény munkát végeznek. Az idő múlásával jobbnak és jobbnak kell lennie. Okosan használja, és kérjük, ne ítélje meg a teljes alkalmazást e funkció alapján. Minőségi okokból az összes keresési eredmény (nem fotó) mentésre kerül.",
   "photo_search_empty": "A MI (mesterséges intelligencia) nem ismerte fel a képen látható virágot. Próbálkozzon újra különböző szög, távolság vagy fényviszonyokkal. Ha már próbálta, úgy tűnik, hogy az MI overlord hamarosan nem jön.",
+
+  "notification": "Értesítés",
+  "notification_open": "Nyisd ki",
+  "notification_close": "Bezár",
 
   "custom_lists": "Virágok listája",
   "new_flowers": "Új virágok",
